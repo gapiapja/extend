@@ -45,7 +45,7 @@ class Nekopoi : MainAPI() {
 
     override val mainPage = mainPageOf(
         "$mainUrl/category/hentai/" to "Hentai",
-        "$mainUrl/category/genres/incest/" to "Genre Incest 😋",
+        "$mainUrl/genres/incest/" to "Genre Incest 😋",
     )
 
     override suspend fun getMainPage(
