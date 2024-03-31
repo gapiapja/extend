@@ -1,0 +1,60 @@
+[
+    {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=nekopoi.care&sz=%size%",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/gapiapja/extend",
+        "fileSize": 22037,
+        "status": 1,
+        "language": "id",
+        "authors": [
+            "Sora"
+        ],
+        "tvTypes": [
+            "NSFW"
+        ],
+        "version": 7,
+        "internalName": "Nekopoi",
+        "url": "https://raw.githubusercontent.com/gapiapja/extend/builds/Nekopoi.cs3",
+        "name": "Nekopoi"
+    },
+    {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=oploverz.care&sz=%size%",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/gapiapja/extend",
+        "fileSize": 18140,
+        "status": 1,
+        "language": "id",
+        "authors": [
+            "Hexated"
+        ],
+        "tvTypes": [
+            "AnimeMovie",
+            "Anime",
+            "OVA"
+        ],
+        "version": 30,
+        "internalName": "Oploverz",
+        "url": "https://raw.githubusercontent.com/gapiapja/extend/builds/Oploverz.cs3",
+        "name": "Oploverz"
+    },
+    {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=otakudesu.watch&sz=%size%",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/gapiapja/extend",
+        "fileSize": 21132,
+        "status": 1,
+        "language": "id",
+        "authors": [
+            "Hexated"
+        ],
+        "tvTypes": [
+            "AnimeMovie",
+            "Anime",
+            "OVA"
+        ],
+        "version": 17,
+        "internalName": "otakudesuProvider",
+        "url": "https://raw.githubusercontent.com/gapiapja/extend/builds/otakudesuProvider.cs3",
+        "name": "otakudesuProvider"
+    }
+]
