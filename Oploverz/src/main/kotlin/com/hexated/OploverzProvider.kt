@@ -40,7 +40,7 @@ class OploverzProvider : MainAPI() {
 
     override val mainPage = mainPageOf(
         "update" to "Latest Update",
-        "latest" to "Latest Added",
+        "https://oploverz.news/anime/?status=&type=&order=update" to "Latest Added",
         "popular" to "Popular Anime",
         "rating" to "Top Rated",
     )
@@ -92,7 +92,7 @@ class OploverzProvider : MainAPI() {
     override suspend fun search(query: String): List<SearchResponse> {
         val anime = mutableListOf<SearchResponse>()
         (1..2).forEach { page ->
-            val link = "$mainUrl/page/$page/?s=$query"
+            val link = "$mainUrl/?s=$query"
             val document = app.get(link).document
             val media = document.select(".site-main.relat > article").mapNotNull {
                 val title = it.selectFirst("div.title > h2")!!.ownText().trim()
